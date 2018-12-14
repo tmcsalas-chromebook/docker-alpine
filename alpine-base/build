@@ -1,1 +1,1 @@
-docker build -t smebberson/alpine-base /vagrant/alpine-base
+docker build -t rfgamaral/alpine-base /vagrant/alpine-base
