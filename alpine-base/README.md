@@ -15,22 +15,22 @@ This image features:
 
 ## Versions
 
-- `3.2.0`, `latest` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.2.0/alpine-base/Dockerfile)
-- `3.1.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.1.0/alpine-base/Dockerfile)
-- `3.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.0.0/alpine-base/Dockerfile)
-- `2.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v2.0.0/alpine-base/Dockerfile)
-- `1.2.1` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.2.1/alpine-base/Dockerfile)
-- `1.2.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.2.0/alpine-base/Dockerfile)
-- `1.1.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.1.0/alpine-base/Dockerfile)
-- `1.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.0.0/alpine-base/Dockerfile)
+- `3.2.0`, `latest` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.2.0/alpine-base/Dockerfile)
+- `3.1.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.1.0/alpine-base/Dockerfile)
+- `3.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.0.0/alpine-base/Dockerfile)
+- `2.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v2.0.0/alpine-base/Dockerfile)
+- `1.2.1` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.2.1/alpine-base/Dockerfile)
+- `1.2.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.2.0/alpine-base/Dockerfile)
+- `1.1.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.1.0/alpine-base/Dockerfile)
+- `1.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.0.0/alpine-base/Dockerfile)
 
-[See VERSIONS.md for image contents.](https://github.com/smebberson/docker-alpine/blob/master/alpine-base/VERSIONS.md)
+[See VERSIONS.md for image contents.](https://github.com/rfgamaral/docker-alpine/blob/master/alpine-base/VERSIONS.md)
 
 ## Usage
 
-To use this image include `FROM smebberson/alpine-base` at the top of your `Dockerfile`. Starting from `smebberson/alpine-base` provides you with the ability to easily start any service using s6. s6 will also keep it running for you, restarting it when it crashes.
+To use this image include `FROM rfgamaral/alpine-base` at the top of your `Dockerfile`. Starting from `rfgamaral/alpine-base` provides you with the ability to easily start any service using s6. s6 will also keep it running for you, restarting it when it crashes.
 
-[Read more about extending this image with your own services](https://github.com/smebberson/docker-alpine/tree/master/#using-services).
+[Read more about extending this image with your own services](https://github.com/rfgamaral/docker-alpine/tree/master/#using-services).
 
 ### DNS
 
@@ -48,6 +48,9 @@ In some environments, `go-dnsmasq` won't be allowed to bind to port `53`. In thi
 
 An example of using this image can be found in [examples/user-alpine](alpinebaseexample).
 
-[alpinebaseexample]: https://github.com/smebberson/docker-alpine/tree/master/examples/user-alpine
+[alpinebaseexample]: https://github.com/rfgamaral/docker-alpine/tree/master/examples/user-alpine
+[alpinelinux]: https://www.alpinelinux.org/
+[s6]: http://skarnet.org/software/s6/
+[s6overlay]: https://github.com/just-containers/s6-overlay
 [godnsmasq]: https://github.com/janeczku/go-dnsmasq
-[dockeralpine]: https://github.com/smebberson/docker-alpine
+[dockeralpine]: https://github.com/rfgamaral/docker-alpine
