@@ -11,7 +11,6 @@ RUN apk add --update --no-cache bind-tools curl libcap && \
     curl -sSL https://github.com/janeczku/go-dnsmasq/releases/download/${GO_DNSMASQ_VERSION}/go-dnsmasq-min_linux-amd64 -o /bin/go-dnsmasq && \
     chmod +x /bin/go-dnsmasq && \
     apk del curl && \
-
     # create user and give binary permissions to bind to lower port
     addgroup go-dnsmasq && \
     adduser -D -g "" -s /bin/sh -G go-dnsmasq go-dnsmasq && \
