@@ -6,7 +6,8 @@ LABEL maintainer="Ricardo Amaral <hello@ricardoamaral.net>"
 ENV S6_OVERLAY_VERSION=v1.19.1.1 \
     GO_DNSMASQ_VERSION=1.0.7
 
-RUN apk add --update --no-cache bind-tools curl libcap && \
+RUN apk upgrade --update && \
+    apk add --no-cache bind-tools curl libcap && \
     curl -sSL https://github.com/just-containers/s6-overlay/releases/download/${S6_OVERLAY_VERSION}/s6-overlay-amd64.tar.gz \
     | tar xfz - -C / && \
     curl -sSL https://github.com/janeczku/go-dnsmasq/releases/download/${GO_DNSMASQ_VERSION}/go-dnsmasq-min_linux-amd64 -o /bin/go-dnsmasq && \
