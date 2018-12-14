@@ -10,18 +10,18 @@ Usage: `rfgamaral/alpine-base` or `rfgamaral/alpine-base:latest`.
 
 ## v3.3.0
 
-- [alpinelinux](Alpine Linux): v3.8
+- [Alpine Linux][alpinelinux]: v3.8
 - [s6-overlay][s6-overlay]: v1.21.7.0
 
 ## v3.2.0
 
-- [alpinelinux](Alpine Linux): v3.5
+- [Alpine Linux][alpinelinux]: v3.5
 - [s6-overlay][s6-overlay]: v1.18.1.5
 - [go-dnsmasq][godnsmasq]: v1.0.7
 
 ## v3.1.0
 
-- [alpinelinux](Alpine Linux): v3.4
+- [Alpine Linux][alpinelinux]: v3.4
 - [s6-overlay][s6-overlay]: v1.18.1.5
 - [go-dnsmasq][godnsmasq]: v1.0.7
 
@@ -33,7 +33,7 @@ Usage: `smebberson/alpine-base:3.1.0`.
 
 ## v3.0.0
 
-- [alpinelinux](Alpine Linux): v3.4
+- [Alpine Linux][alpinelinux]: v3.4
 - [s6-overlay][s6-overlay]: v1.17.2.0
 - [go-dnsmasq][godnsmasq]: v1.0.6
 
@@ -51,7 +51,7 @@ Usage: `smebberson/alpine-base:3.0.0`.
 
 ## v2.0.0
 
-- [alpinelinux](Alpine Linux): v3.3
+- [Alpine Linux][alpinelinux]: v3.3
 - [s6-overlay][s6-overlay]: v1.17.2.0
 - [go-dnsmasq][godnsmasq]: v1.0.4
 
@@ -63,7 +63,7 @@ Usage: `smebberson/alpine-base:2.0.0`.
 
 ## v1.2.1
 
-- [alpinelinux](Alpine Linux): v3.2
+- [Alpine Linux][alpinelinux]: v3.2
 - [s6-overlay][s6-overlay]: v1.16.0.1
 - [go-dnsmasq][godnsmasq]: v0.9.8
 
@@ -75,7 +75,7 @@ Usage: `smebberson/alpine-base:1.2.1`.
 
 ## v1.2.0
 
-- [alpinelinux](Alpine Linux): v3.2
+- [Alpine Linux][alpinelinux]: v3.2
 - [s6-overlay][s6-overlay]: v1.16.0.1
 
 Improvements:
@@ -86,14 +86,14 @@ Usage: `smebberson/alpine-base:1.2.0`.
 
 ## v1.1.0
 
-- [alpinelinux](Alpine Linux): v3.2
+- [Alpine Linux][alpinelinux]: v3.2
 - [s6-overlay][s6-overlay]: v1.14.0.4
 
 Usage: `smebberson/alpine-base:1.1.0`.
 
 ## v1.0.0
 
-- [alpinelinux](Alpine Linux): v3.2
+- [Alpine Linux][alpinelinux]: v3.2
 - [s6-overlay][s6-overlay]: v1.13.0.0
 
 Usage: `smebberson/alpine-base:1.0.0`.
