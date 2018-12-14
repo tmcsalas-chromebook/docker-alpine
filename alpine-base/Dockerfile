@@ -1,9 +1,9 @@
-FROM alpine:3.5
+FROM alpine:3.8
 
 LABEL maintainer="Ricardo Amaral <hello@ricardoamaral.net>"
 
 # Add s6-overlay
-ENV S6_OVERLAY_VERSION=v1.19.1.1 \
+ENV S6_OVERLAY_VERSION=v1.21.7.0 \
     GO_DNSMASQ_VERSION=1.0.7
 
 RUN apk upgrade --update && \

@@ -4,9 +4,14 @@ This file contains all software versions, that correspond to a version of this i
 
 ## Latest
 
-Same as v3.2.0.
+Same as v3.3.0.
 
-Usage: `smebberson/alpine-base` or `smebberson/alpine-base:latest`.
+Usage: `rfgamaral/alpine-base` or `rfgamaral/alpine-base:latest`.
+
+## v3.3.0
+
+- [alpinelinux](Alpine Linux): v3.8
+- [s6-overlay][s6-overlay]: v1.21.7.0
 
 ## v3.2.0
 
@@ -95,5 +100,5 @@ Usage: `smebberson/alpine-base:1.0.0`.
 
 [s6-overlay]: https://github.com/just-containers/s6-overlay
 [alpinelinux]: https://www.alpinelinux.org/
-[alpinebase]: https://github.com/smebberson/docker-alpine/tree/master/alpine-base
+[alpinebase]: https://github.com/rfgamaral/docker-alpine/tree/master/alpine-base
 [godnsmasq]: https://github.com/janeczku/go-dnsmasq
