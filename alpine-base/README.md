@@ -15,14 +15,15 @@ This image features:
 
 ## Versions
 
-- `3.2.0`, `latest` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.2.0/alpine-base/Dockerfile)
-- `3.1.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.1.0/alpine-base/Dockerfile)
-- `3.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.0.0/alpine-base/Dockerfile)
-- `2.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v2.0.0/alpine-base/Dockerfile)
-- `1.2.1` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.2.1/alpine-base/Dockerfile)
-- `1.2.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.2.0/alpine-base/Dockerfile)
-- `1.1.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.1.0/alpine-base/Dockerfile)
-- `1.0.0` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v1.0.0/alpine-base/Dockerfile)
+- `3.3.0`, `latest` [(Dockerfile)](https://github.com/rfgamaral/docker-alpine/blob/alpine-base-v3.3.0/alpine-base/Dockerfile)
+- `3.2.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.2.0/alpine-base/Dockerfile)
+- `3.1.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.1.0/alpine-base/Dockerfile)
+- `3.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v3.0.0/alpine-base/Dockerfile)
+- `2.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v2.0.0/alpine-base/Dockerfile)
+- `1.2.1` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.2.1/alpine-base/Dockerfile)
+- `1.2.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.2.0/alpine-base/Dockerfile)
+- `1.1.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.1.0/alpine-base/Dockerfile)
+- `1.0.0` [(Dockerfile)](https://github.com/smebberson/docker-alpine/blob/alpine-base-v1.0.0/alpine-base/Dockerfile)
 
 [See VERSIONS.md for image contents.](https://github.com/rfgamaral/docker-alpine/blob/master/alpine-base/VERSIONS.md)
 
