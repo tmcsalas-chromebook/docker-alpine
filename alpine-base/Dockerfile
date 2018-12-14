@@ -19,4 +19,5 @@ RUN apk add --update --no-cache bind-tools curl libcap && \
 COPY root /
 
 ENTRYPOINT ["/init"]
+
 CMD []
