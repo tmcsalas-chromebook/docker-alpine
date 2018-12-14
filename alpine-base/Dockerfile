@@ -1,5 +1,6 @@
 FROM alpine:3.5
-MAINTAINER Scott Mebberson (https://github.com/smebberson/docker-alpine)
+
+LABEL maintainer="Ricardo Amaral <hello@ricardoamaral.net>"
 
 # Add s6-overlay
 ENV S6_OVERLAY_VERSION=v1.19.1.1 \
