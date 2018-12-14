@@ -3,7 +3,9 @@
 A Docker image for running just about anything within a container, based on Alpine Linux.
 This image belongs to a suite of images [documented here][dockeralpine].
 
-Image size is ~13.8 MB.
+![](https://img.shields.io/docker/automated/rfgamaral/alpine-base.svg)
+![](https://img.shields.io/microbadger/image-size/rfgamaral/alpine-base.svg)
+![](https://img.shields.io/microbadger/layers/rfgamaral/alpine-base.svg)
 
 ## Features
 
